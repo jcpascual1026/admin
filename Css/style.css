@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.fd h1{
+    font-size: 4.2rem;
+    text-align: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.btntags {
+    font-size: 0.8rem;
+    font-family: 'Poppins';
+    color: #fafafa;
+    text-transform: uppercase;
+    padding: 1.3vh 2.4vh;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: #252525;
+    box-shadow: 3px 3px 3px 3px #8d8989;
+    cursor: pointer;
+    margin: 0.6em;
+  }
+  
+  .btntags:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
+  
+  .tags{
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+  }
+
+.cmdbtn{
+  margin: 0 3em 1em 0;
+
+}
+  .Cmdbtn-Approve {
+    font-size: 0.8rem;
+    font-family: 'Poppins';
+    color: #2BD773;
+    text-transform: uppercase;
+    padding: 1.3vh 2.4vh;
+    border-radius: 10px;
+    border: 1px solid #2BD773;
+    background: white;
+    box-shadow: 3px 3px 3px 3px #8d8989;
+    cursor: pointer;
+    margin: 0.6em;
+    font-weight: bold;
+  }
+  
+  .Cmdbtn-Approve:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
+
+  .Cmdbtn-Decline {
+    font-size: 0.8rem;
+    font-family: 'Poppins';
+    color: #D72B2B;
+    text-transform: uppercase;
+    padding: 1.3vh 2.4vh;
+    border-radius: 10px;
+    border: 1px solid #D72B2B;
+    background: white;
+    box-shadow: 3px 3px 3px 3px #8d8989;
+    cursor: pointer;
+    margin: 0.6em;
+    font-weight: bold;
+  }
+  
+  .Cmdbtn-Decline:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
+
+  .Cmdbtn-Cancel {
+    font-size: 0.8rem;
+    font-family: 'Poppins';
+    color: #343235;
+    text-transform: uppercase;
+    padding: 1.3vh 2.4vh;
+    border-radius: 10px;
+    border: 1px solid #343235;
+    background: white;
+    box-shadow: 3px 3px 3px 3px #8d8989;
+    cursor: pointer;
+    margin: 0.6em;
+    font-weight: bold;
+  }
+  
+  .Cmdbtn-Cancel:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
+.cmd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.InputContainer{
+  border: 1px solid black;
+  border-radius: 1em;
+  padding: 0.3em 0.7em;
+  margin-left: 10%;
+}
+
+input{
+  background: transparent;
+  border: 0;
+  font-size: 0.8rem;
+  width: 45vh;
+}
+
+label i{
+  color: white;
+  background-color: #252525;
+  padding: 0.7em;
+  border-radius: 1em;
+}
